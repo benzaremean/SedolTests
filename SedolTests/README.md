@@ -1,4 +1,4 @@
-﻿# SEDOL VALIDATION CHECKER TESTS
+﻿## SEDOL VALIDATION CHECKER TESTS
 
 ### Libraries
 
@@ -43,8 +43,8 @@ From a usability perspective, I have a few recommendations not in order of prior
 
 I have written the tests to cover the Acceptance Criteria provided and all test pass apart from the following:
 
-i. Invalid non user define SEDOL (2 scenarios)
-ii. Invalid user defined SEDOL (1 scenario)
+1. Invalid non user define SEDOL (2 scenarios)
+2. Invalid user defined SEDOL (1 scenario)
 
 The issue is that the expected validation message 'Checksum digit does not agree with the rest of the input'
 is not same as the actual 'Checksum digit does not agree with the first 6 characters.'
